@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN npm install -g yarn
 
+RUN npm install -g pnpm
+
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 
